@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Welcome to Ultimo Developer](README.md)
+* [Untitled](untitled.md)
 * [Interface](interface/README.md)
   * [Extras](interface/extras.md)
   * [Quizzes](interface/quizzes.md)
