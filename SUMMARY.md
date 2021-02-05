@@ -5,7 +5,6 @@
   * [Extras](interface/extras.md)
   * [Quizzes](interface/quizzes.md)
   * [A Nested Page](interface/a-nested-page.md)
-* [A Nested Page](a-nested-page.md)
 * [pages](pages/README.md)
   * [Abouts](pages/about.md)
   * [News](pages/news.md)
