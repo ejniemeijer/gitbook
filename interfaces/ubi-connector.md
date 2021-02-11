@@ -1,6 +1,6 @@
 # UBI
 
-![](../.gitbook/assets/image.webp)
+![](https://793147.smushcdn.com/1206574/wp-content/uploads/2021/02/1180727240-e1612439841235.jpg?lossy=1&strip=1&webp=1)
 
 ### User Interactions
 
