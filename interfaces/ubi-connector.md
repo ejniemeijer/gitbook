@@ -1,6 +1,6 @@
 # UBI Connectors
 
-### User Interaction
+### User Interactions
 
 On the right side of any page, you'll notice links to edit the page, or open an issue. This ensures that any time you have a question or want to suggest or request a change, you can do so immediately and link directly to the section of interest. The sections on the page also have permalinks so you can link directly to them.
 
@@ -19,7 +19,7 @@ The example above is for a javascript file in the assets folder that is used as 
 
 ### External Search
 
-If you have an external site with a search GET endpoint \(meaning one that ends in `?q=<term>`, then you can automatically link page tags to search this endpoint. For example, on an HPC site I'd want a tag like "mpi" to do a search on [http://ask.cyberinfrastructure.org](http://ask.cyberinfrastructure.org) for mpi. See the [tags]() section below for how to configure this.
+If you have an external site with a search GET endpoint \(meaning one that ends in `?q=<term>`, then you can automatically link page tags to search this endpoint. For example, on an HPC site I'd want a tag like "mpi" to do a search on [http://ask.cyberinfrastructure.org](http://ask.cyberinfrastructure.org) for mpi. See the [tags](ubi-connector.md) section below for how to configure this.
 
 ### Documentation
 
@@ -47,7 +47,7 @@ From that page, we could provide the direct path in markdown to any subfolder to
 {% raw %}[example](clusters/sherlock/getting-started.md){% endraw %}
 ```
 
-[Here](example-page) is an example link to a relative path of a file \(`example-page.md`\) in the same directory, and from that page you can test linking to a subfoldr. In the case of not having a subfolder, we could write the link out directly:
+[Here](https://github.com/ejniemeijer/gitbook/tree/876ee1d4758298718cd0829859424f5ec2459c7f/example-page/README.md) is an example link to a relative path of a file \(`example-page.md`\) in the same directory, and from that page you can test linking to a subfoldr. In the case of not having a subfolder, we could write the link out directly:
 
 ```text
 {% raw %}[example]({{ site.baseurl }}/docs/clusters/sherlock/getting-started.md){% endraw %}
@@ -108,7 +108,7 @@ If you want to add an external url for a parent or child, do this:
 
 ### News Posts
 
-It might be the case that your site or group has news items that would warrent sharing with the community, and should be available as a feed. For this reason, you can write traditional [posts](https://jekyllrb.com/docs/posts/) in the `_posts` folder that will parse into the site [feed](%7B%7B%20site.baseurl%20%7D%7D/feed.xml) The bottom of the page links the user to a post archive, where posts are organized according to the year.
+It might be the case that your site or group has news items that would warrent sharing with the community, and should be available as a feed. For this reason, you can write traditional [posts](https://jekyllrb.com/docs/posts/) in the `_posts` folder that will parse into the site [feed](https://github.com/ejniemeijer/gitbook/tree/876ee1d4758298718cd0829859424f5ec2459c7f/%7B%7B%20site.baseurl%20%7D%7D/feed.xml) The bottom of the page links the user to a post archive, where posts are organized according to the year.
 
 ### Buttons
 
@@ -263,15 +263,15 @@ https://<circleci>/0/mkdocs-jekyll/docs/getting-started/index.html
 
 #### config.yml
 
-To edit configuration values, customize the [\_config.yml](_config.yml). Most are documented there, and please [open an issue](https://www.github.com/{{%20site.github_user%20}}/{{%20site.github_user%20}}/issues) if you have questions.
+To edit configuration values, customize the [\_config.yml](https://github.com/ejniemeijer/gitbook/tree/876ee1d4758298718cd0829859424f5ec2459c7f/_config.yml). Most are documented there, and please [open an issue](https://www.github.com/{{%20site.github_user%20}}/{{%20site.github_user%20}}/issues) if you have questions.
 
 #### Adding pages
 
-To add pages, write them into the [pages](pages) folder. You define urls based on the `permalink` attribute in your pages, and then add them to the navigation by adding to the content of [\_data/toc.yml](_data/toc.yml).
+To add pages, write them into the [pages](https://github.com/ejniemeijer/gitbook/tree/876ee1d4758298718cd0829859424f5ec2459c7f/pages/README.md) folder. You define urls based on the `permalink` attribute in your pages, and then add them to the navigation by adding to the content of [\_data/toc.yml](https://github.com/ejniemeijer/gitbook/tree/876ee1d4758298718cd0829859424f5ec2459c7f/_data/toc.yml).
 
 #### Tags
 
-If you include tags on a page, by default they will link to the [tags page](%7B%7B%20site.url%20%7D%7D%7B%7B%20site.baseurl%20%7D%7D/tags) on the site. However, if you define a `tag_search_endpoint` url in your configuration file, by clicking the tag, the user will be taken to this page to search for it. As an example, we define the current search endpoint to be Ask Cyberinfrastructure, and page tags link to a search on it:
+If you include tags on a page, by default they will link to the [tags page](https://github.com/ejniemeijer/gitbook/tree/876ee1d4758298718cd0829859424f5ec2459c7f/%7B%7B%20site.url%20%7D%7D%7B%7B%20site.baseurl%20%7D%7D/tags/README.md) on the site. However, if you define a `tag_search_endpoint` url in your configuration file, by clicking the tag, the user will be taken to this page to search for it. As an example, we define the current search endpoint to be Ask Cyberinfrastructure, and page tags link to a search on it:
 
 ```yaml
 tag_search_endpoint: https://ask.cyberinfrastructure.org/search?q=
