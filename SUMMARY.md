@@ -4,7 +4,7 @@
 
 ## Interfaces
 
-* [UBI Connectors](interfaces/ubi-connector.md)
+* [UBI](interfaces/ubi-connector.md)
 * [Example](interfaces/example.md)
 
 ## Documents
