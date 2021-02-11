@@ -1,4 +1,4 @@
-# Third party integration document
+# Third party integration
 
 ![](../.gitbook/assets/image.webp)
 

@@ -9,11 +9,11 @@ REST\_ProcessFunctionMeasurementPointValue\_Import
 REST\_CreateEquipmentMeasurementPoint  
 REST\_CreateProcessFunctionMeasurementPoint
 
-{% file src=".gitbook/assets/ultimo-iot-connector-api-documentation-v3.pdf" %}
+{% file src="../.gitbook/assets/ultimo-iot-connector-api-documentation-v3.pdf" %}
 
 **Job \(UbiPackWorkOrder\) with workflow:**
 
 REST\_ReportJob
 
-{% file src=".gitbook/assets/ultimo-rest-connector-jobs-api-documentation.pdf" caption=" Job \(UbiPackWorkOrder\) with workflow" %}
+{% file src="../.gitbook/assets/ultimo-rest-connector-jobs-api-documentation.pdf" caption=" Job \(UbiPackWorkOrder\) with workflow" %}
 
