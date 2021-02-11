@@ -1,4 +1,4 @@
-# UBI TEST
+# UBI
 
 ### User Interactions
 
