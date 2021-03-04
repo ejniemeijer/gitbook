@@ -17,8 +17,8 @@ description: >-
         <p>&#x1F978;</p>
       </th>
       <th style="text-align:center">
-        <p>&#xD01B7;<a href="documents/third-party-integration.md"><img src=".gitbook/assets/landinglink.svg" alt/></a>&#x1F970;&#x1F970;&#x1F970;&#x1F970;</p>
-        <p>&#x1F970;</p>
+        <p><a href="documents/third-party-integration.md"><img src=".gitbook/assets/landinglink.svg" alt/></a>&#x1F978;</p>
+        <p>&#x1F978;</p>
       </th>
     </tr>
   </thead>
