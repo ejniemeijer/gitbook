@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500px" height="300px" viewBox="0 0 500 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>LandingLink</title>
+    <g id="LandingLink" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="500" height="300"></rect>
+        <rect id="Rectangle" stroke="#FFD433" stroke-width="3" x="1.5" y="1.5" width="497" height="297"></rect>
+        <text id="Landing-link" font-family="NizzoliAltRd-Regular, Nizzoli Alt Rd" font-size="53" font-weight="normal" letter-spacing="-0.202336506" fill="#263682">
+            <tspan x="82" y="171">Landing link</tspan>
+        </text>
+    </g>
+</svg>
