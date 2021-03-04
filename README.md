@@ -9,9 +9,27 @@ description: >-
 
 
 
-| [Third party![](.gitbook/assets/landinglink.svg) integration](documents/third-party-integration.md)  test | ![](.gitbook/assets/landinglink.svg)  |
-| :---: | :---: |
-
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:center">
+        <p></p>
+        <p>
+          <img src=".gitbook/assets/landinglink.svg" alt/>
+        </p>
+      </th>
+      <th style="text-align:center">
+        <img src=".gitbook/assets/landinglink.svg" alt/>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+    </tr>
+  </tbody>
+</table>
 
 ![](.gitbook/assets/landinglink.svg)                           ![](.gitbook/assets/landinglink.svg) 
 
