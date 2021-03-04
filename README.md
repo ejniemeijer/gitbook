@@ -13,25 +13,17 @@ description: >-
   <thead>
     <tr>
       <th style="text-align:center">
-        <p></p>
-        <p>
-          <img src=".gitbook/assets/landinglink.svg" alt/>
-        </p>
+        <p><a href="documents/third-party-integration.md"><img src=".gitbook/assets/landinglink.svg" alt/></a>&#x1F978;</p>
+        <p>&#x1F978;</p>
       </th>
       <th style="text-align:center">
-        <img src=".gitbook/assets/landinglink.svg" alt/>
+        <p>&#xD01B7;<a href="documents/third-party-integration.md"><img src=".gitbook/assets/landinglink.svg" alt/></a>&#x1F970;&#x1F970;&#x1F970;&#x1F970;</p>
+        <p>&#x1F970;</p>
       </th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-    </tr>
-  </tbody>
+  <tbody></tbody>
 </table>
-
-![](.gitbook/assets/landinglink.svg)                           ![](.gitbook/assets/landinglink.svg) 
 
 {% embed url="https://youtu.be/kwgJkmd6ra8" caption="Ultimo bij Hutchison Ports ECT Rotterdam" %}
 
