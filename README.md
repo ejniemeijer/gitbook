@@ -5,7 +5,7 @@ description: >-
   parturient montes, nascetur ridiculus mus. Donec qu
 ---
 
-# Welcome to Ultimo Developer
+# Welcome
 
 | ![](.gitbook/assets/landinglink.svg)  | ![](.gitbook/assets/landinglink.svg)  |
 | :---: | :---: |

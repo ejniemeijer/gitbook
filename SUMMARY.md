@@ -1,14 +1,23 @@
 # Table of contents
 
-* [Welcome to Ultimo Developer](README.md)
+* [Welcome](README.md)
 
-## Documents
+## Getting started
 
-* [Untitled](documents/untitled.md)
-* [Third party integration](documents/third-party-integration.md)
-* [Specific Rest Interfaces](documents/specific-rest-interfaces.md)
+* [Introduction](getting-started/introduction.md)
+* [Quick Start](getting-started/quick-start.md)
 
-## Developer
+## Documentation
+
+* [Untitled](documentation/untitled.md)
+* [Specific Rest Interfaces](documentation/specific-rest-interfaces.md)
+
+## API guide
+
+* [Basics](api-guide/basics.md)
+* [Third party integration](api-guide/third-party-integration.md)
+
+## Reference
 
 * [Playground](https://integrations-playground.ultimo.com/docs/index.html?version=v1&apiKey=E98A60772F574264BEF845115A32D388)
 
