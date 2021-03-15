@@ -8,7 +8,3 @@ If you need more complex interfaces, for example to trigger customer-specific ac
 
 We have extensive experience of realising and maintaining interfaces ranging from Enterprise Resource Planning \(ERP\) and Geographical Information System \(GIS\) to external data sources, IoT platforms and Augmented Reality. For more inspiration, visit Ultimo.com and have a look at our partner page or ask one of our experts to recommend the best solution for you.
 
-| ![](.gitbook/assets/landinglink.svg)  | ![](.gitbook/assets/landinglink.svg)  |
-| :---: | :---: |
-
-
