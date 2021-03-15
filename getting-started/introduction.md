@@ -31,3 +31,9 @@ Ultimo Business Integration offers:
 * Possibilities for XSL transformation
 * Default logging and rollback mechanisms
 
+The following types of communications are supported to access the API:
+
+* HTTP POST
+* SOAP
+* REST
+
