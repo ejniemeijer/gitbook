@@ -37,7 +37,7 @@
   * [WSDL](api-guide/soap/wsdl.md)
   * [Authentication](api-guide/soap/authentication.md)
   * [Overview of a POST request](api-guide/soap/overview-of-a-post-request.md)
-  * [TODO: Requesting data](api-guide/soap/todo-requesting-data.md)
+  * [Requesting data](api-guide/soap/requesting-data.md)
   * [TODO: Inserting data](api-guide/soap/todo-inserting-data.md)
   * [Testing SOAP](api-guide/soap/testing-soap.md)
 
