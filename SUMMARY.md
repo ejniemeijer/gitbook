@@ -9,21 +9,6 @@
 
 ## API guide
 
-* [HTTP POST](api-guide/http-post/README.md)
-  * [How to connect](api-guide/http-post/http-post-how-to-connect.md)
-  * [Authentication](api-guide/http-post/authentication.md)
-  * [Overview of a POST request](api-guide/http-post/http-post-overview-of-a-post-request.md)
-  * [Requesting data](api-guide/http-post/requesting-data.md)
-  * [Inserting data](api-guide/http-post/inserting-data.md)
-  * [Testing HTTP POST](api-guide/http-post/testing-http-post.md)
-* [SOAP](api-guide/soap/README.md)
-  * [How to connect](api-guide/soap/how-to-connect.md)
-  * [WSDL](api-guide/soap/wsdl.md)
-  * [Authentication](api-guide/soap/authentication.md)
-  * [Overview of a POST request](api-guide/soap/overview-of-a-post-request.md)
-  * [TODO: Requesting data](api-guide/soap/todo-requesting-data.md)
-  * [TODO: Inserting data](api-guide/soap/todo-inserting-data.md)
-  * [Testing SOAP](api-guide/soap/testing-soap.md)
 * [REST](api-guide/rest/README.md)
   * [Authentication](api-guide/rest/authentication.md)
   * [Requesting data](api-guide/rest/requesting-data.md)
@@ -40,10 +25,25 @@
   * [Special characters](api-guide/rest/special-characters.md)
   * [Response format](api-guide/rest/response-format.md)
   * [Testing REST](api-guide/rest/testing-rest.md)
-* [Third party integration](api-guide/third-party-integration.md)
+* [HTTP POST](api-guide/http-post/README.md)
+  * [How to connect](api-guide/http-post/http-post-how-to-connect.md)
+  * [Authentication](api-guide/http-post/authentication.md)
+  * [Overview of a POST request](api-guide/http-post/http-post-overview-of-a-post-request.md)
+  * [Requesting data](api-guide/http-post/requesting-data.md)
+  * [Inserting data](api-guide/http-post/inserting-data.md)
+  * [Testing HTTP POST](api-guide/http-post/testing-http-post.md)
+* [SOAP](api-guide/soap/README.md)
+  * [How to connect](api-guide/soap/how-to-connect.md)
+  * [WSDL](api-guide/soap/wsdl.md)
+  * [Authentication](api-guide/soap/authentication.md)
+  * [Overview of a POST request](api-guide/soap/overview-of-a-post-request.md)
+  * [TODO: Requesting data](api-guide/soap/todo-requesting-data.md)
+  * [TODO: Inserting data](api-guide/soap/todo-inserting-data.md)
+  * [Testing SOAP](api-guide/soap/testing-soap.md)
 
 ## Documentation
 
+* [Third party integration](documentation/third-party-integration.md)
 * [Specific Rest Interfaces](documentation/specific-rest-interfaces.md)
 
 ## Reference
