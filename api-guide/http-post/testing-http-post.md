@@ -4,7 +4,7 @@ There are several ways to test HTTP Post requests, depending on the available to
 
 In the example below the file test.xml contains the data and the response will be written to the file response.xml
 
-```text
+```http
 curl --data-binary @c:\test.xml -o c:\response.xml -H "Content-type: text/xml;charset=utf-8" 
      "http://internaldomain.org/Ultimo/Webservices/Connector.ashx?username=<<username>>&password=<<password>>&action=export&exportName=<<exportconnectorname>>"
 ```

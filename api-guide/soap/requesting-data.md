@@ -8,7 +8,7 @@ It is possible to retrieve data by sending a request to one of the activated exp
 
 _Example request_
 
-```text
+```markup
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
     <soapenv:Header/>
     <soapenv:Body>
@@ -32,7 +32,7 @@ _Example response_
 
 Returns the full request or an exception
 
-```text
+```markup
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
     <s:Body>
         <ExportDataResponse xmlns="http://tempuri.org/">

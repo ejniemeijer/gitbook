@@ -10,7 +10,7 @@ It is possible to add filters to a request to retrieve specific information from
 
 _Example body_
 
-```text
+```markup
 <?xml version="1.0" encoding="utf-8"?>
 <Data>
 	<Object Type="EntityName" Action="InsertOrUpdate">
@@ -35,8 +35,7 @@ _Example response_
 
 Returns the full request or an exception
 
-```text
-
+```markup
 <?xml version="1.0" encoding="utf-16"?>
 <Data>
 	<Object Type="EntityName" Action="Insert">
@@ -49,7 +48,6 @@ Returns the full request or an exception
 		<Property Name="Id" Value="CODE03" />
 	</Object>
 </Data>
-
 ```
 
 The request and response are expected and returned in a fixed Ultimo format. With XSL transformations, it is possible to transform the request \(to the Ultimo format\) and response \(to the desired custom format\) when using XML as an output result. This is optional and can only be done by our consultants. Output can also be returned in a default CSV or JSON format.

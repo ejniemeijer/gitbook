@@ -16,7 +16,7 @@ _Example response_
 
 Returns the full request or an exception
 
-```text
+```markup
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
    <soapenv:Header/>
    <soapenv:Body>
@@ -46,7 +46,7 @@ Returns the full request or an exception
 </soapenv:Envelope>
 ```
 
-```text
+```markup
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
 	<s:Body>
 		<ImportDataResponse xmlns="http://tempuri.org/">
