@@ -2,7 +2,7 @@
 
 The next examples explain the different uses of resource paths:
 
-* Retrieve a list of entities by using an entity set:  ~~`GET http://customer.ultimo.com/api/v1/object/Equipment/`~~ 
+* Retrieve a list of entities by using an entity set:   ~~`GET http://customer.ultimo.com/api/v1/object/Equipment/`~~ 
 * Retrieve a list of custom entities:  `GET http://customer.ultimo.com/api/V1/Object/_Entity/` 
 * Retrieve a single entity by using an entity key:  `GET http://customer.ultimo.com/api/v1/object/Equipment('00001')` 
 * Retrieve a single entity with a composite key by using multiple key properties:  `GET http://customer.ultimo.com/api/v1/object/EquipmentSparePart(Equipment='00001',Article='0191')` 
