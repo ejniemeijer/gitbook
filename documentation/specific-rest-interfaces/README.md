@@ -9,13 +9,13 @@ Currently there are three REST interfaces available in Ultimo \(depending on lic
 3. REST\_CreateEquipmentMeasurementPoint
 4. REST\_CreateProcessFunctionMeasurementPoint
 
-{% file src="../.gitbook/assets/ultimo-iot-connector-api-documentation-v3.pdf" %}
+{% file src="../../.gitbook/assets/ultimo-iot-connector-api-documentation-v3.pdf" %}
 
 #### **Job \(UbiPackWorkOrder\) with workflow:**
 
 1. REST\_ReportJob
 
-{% file src="../.gitbook/assets/ultimo-rest-connector-jobs-api-documentation.pdf" caption=" Job \(UbiPackWorkOrder\) with workflow" %}
+{% file src="../../.gitbook/assets/ultimo-rest-connector-jobs-api-documentation.pdf" caption=" Job \(UbiPackWorkOrder\) with workflow" %}
 
 #### **Reservation \(RESTInterfaceReservations\) with workflows:**
 
@@ -24,5 +24,5 @@ Currently there are three REST interfaces available in Ultimo \(depending on lic
 3. REST\_CancelReservation
 4. REST\_GetReservationsForSpace
 
-{% file src="../.gitbook/assets/ultimo-rest-connector-reservations-api-documentation-v3.pdf" caption="Reservation \(RESTInterfaceReservations\) with workflows" %}
+{% file src="../../.gitbook/assets/ultimo-rest-connector-reservations-api-documentation-v3.pdf" caption="Reservation \(RESTInterfaceReservations\) with workflows" %}
 

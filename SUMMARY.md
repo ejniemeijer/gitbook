@@ -44,7 +44,10 @@
 ## Documentation
 
 * [Third party integration](documentation/third-party-integration.md)
-* [Specific Rest Interfaces](documentation/specific-rest-interfaces.md)
+* [Specific Rest Interfaces](documentation/specific-rest-interfaces/README.md)
+  * [IoT Connector](documentation/specific-rest-interfaces/iot-connector.md)
+  * [Jobs Connector](documentation/specific-rest-interfaces/jobs-connector.md)
+  * [Reservations Connector](documentation/specific-rest-interfaces/reservations-connector.md)
 
 ## Reference
 
