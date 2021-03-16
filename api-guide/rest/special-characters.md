@@ -2,8 +2,8 @@
 
 Some special characters can't be directly used in requests. This paragraph explains all limitations and how to work around them.
 
-* You can't use a forward slashes for the Id in the route, because it will be interpreted as a path separator:  ⚠️  //ERROR `GET http://customer.ultimo.com/api/v1/object/Building('01/02')` 
-* Using URL encoding also won't work because WebAPI will URL decode it first and it will result in the same URL:  ⚠️ //ERROR `GET http://customer.ultimo.com/api/v1/object/Building('01%2f02')` 
+* You **can't** use a forward slashes for the Id in the route, because it will be interpreted as a path separator:  ⚠️  //ERROR `GET http://customer.ultimo.com/api/v1/object/Building('01/02')` 
+* Using URL encoding also **won't work** because WebAPI will URL decode it first and it will result in the same URL:  ⚠️ //ERROR `GET http://customer.ultimo.com/api/v1/object/Building('01%2f02')` 
 * It is possible to use a forward slash in the Id when using a filter:  👍🏻 //GOOD `GET http://customer.ultimo.com/api/v1/object/Building?filter=Id eq '01/02'` 
 
 The following special characters also can't be used in the Id, because ASP.NET will give a warning about a potentially dangerous request path value:    `< > * % & : \ ?`  
