@@ -4,7 +4,7 @@ It is possible to change data by sending a request to one of the activated impor
 
 _Parameter example:_
 
-username=user&password=password&action=import&importName=importconnector
+`username=user&password=password&action=import&importName=importconnector`
 
 Each object to import should be bundled in a single &lt;object&gt; node. All attributes of an object should be added as properties. The name of a property represents a database field in Ultimo. It is possible to send multiple objects at once. The action to execute per object should be determined when creating an interface.
 
