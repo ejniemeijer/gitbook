@@ -20,11 +20,11 @@ Sending a request to Ultimo Business Integration will return an HTTP response st
 
 #### Common HTTP response status codes
 
-* 200 OK, Ultimo has received the web request successfully and tried to process it. Details of the processing results are returned in the response body.
-* 400 Bad Request, Ultimo is not able to process the request due to an apparent client error. This usually means there is a malformed request syntax.
-* 401 Unauthorized, Ultimo is not able to match the specified authentication parameters
-* 404 Not found, the used endpoint is probably incorrect
-* 500 Internal Server Error, a generic error that can be caused by many different problems. Depending on the failure, the response body might contain detailed information.
+* `200 OK`, Ultimo has received the web request successfully and tried to process it. Details of the processing results are returned in the response body.
+* `400 Bad Request`, Ultimo is not able to process the request due to an apparent client error. This usually means there is a malformed request syntax.
+* `401 Unauthorized`, Ultimo is not able to match the specified authentication parameters
+* `404 Not found`, the used endpoint is probably incorrect
+* `500 Internal Server Error`, a generic error that can be caused by many different problems. Depending on the failure, the response body might contain detailed information.
 
 #### Error message example
 
