@@ -2,7 +2,7 @@
 
 The following example explains the raw POST request as it is sent to Connector.ashx:
 
-```text
+```markup
 POST  /WebServices/Connector.ashx HTTP/1.1
 Host: <>
 Content-type: application/x-www-form-urlencoded

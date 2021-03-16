@@ -2,7 +2,7 @@
 
 The following example explains the raw POST request as it is sent to SoapConnector.svc:
 
-```text
+```markup
 POST /WebServices/SoapConnector.svc HTTP/1.1
 Host: <>
 Content-Type: text/xml;charset=UTF-8
