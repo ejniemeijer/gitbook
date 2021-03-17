@@ -8,9 +8,9 @@ Host: <>
 Content-type: application/x-www-form-urlencoded
 Content-length: <<length_of_data>>
 Connection: close
+```
 
 Several parameter should be added to the request to make it more specific. Which parameters to use depend on the desired action.
-```
 
 <table>
   <thead>
