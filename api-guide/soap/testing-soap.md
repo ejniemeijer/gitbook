@@ -6,14 +6,14 @@ In the example below the file soaprequest.xml contains the soap call to export d
 
 ```text
 curl --data-binary @soaprequest.xml -o soapresponse.xml -H "SOAPACTION: http://tempuri.org/SoapConnector/ExportData" -H "Content-type: text/xml;charset=utf-8" 
-       http://internaldomain.org/Ultimo/Webservices/SoapConnector.svc
+       https://customer.ultimo.net/Webservices/SoapConnector.svc
 ```
 
 To import data the SOAPACTION should be changed to ImportData.
 
 ```text
 curl --data-binary @soaprequest.xml -o soapresponse.xml -H "SOAPACTION: http://tempuri.org/SoapConnector/ImportData" -H "Content-type: text/xml;charset=utf-8" 
-       http://internaldomain.org/Ultimo/Webservices/SoapConnector.svc
+       https://customer.ultimo.net/Webservices/SoapConnector.svc
 
 ```
 

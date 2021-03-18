@@ -6,14 +6,14 @@ In the example below the file test.xml contains the data and the response will b
 
 ```http
 curl --data-binary @c:\test.xml -o c:\response.xml -H "Content-type: text/xml;charset=utf-8" 
-     "http://internaldomain.org/Ultimo/Webservices/Connector.ashx?username=<<username>>&password=<<password>>&action=export&exportName=<<exportconnectorname>>"
+     "https://customer.ultimo.net/Webservices/Connector.ashx?username=<<username>>&password=<<password>>&action=export&exportName=<<exportconnectorname>>"
 ```
 
 To import data the action should be changed to import:
 
 ```text
 curl --data-binary @c:\test.xml -o c:\response.xml -H "Content-type: text/xml;charset=utf-8" 
-     "http://internaldomain.org/Ultimo/Webservices/Connector.ashx?username=<<username>>&password=<<password>>&action=import&importName=<<importconnectorname>>"
+     "https://customer.ultimo.net/Webservices/Connector.ashx?username=<<username>>&password=<<password>>&action=import&importName=<<importconnectorname>>"
 ```
 
 ### 
