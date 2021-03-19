@@ -14,8 +14,5 @@ To import data the SOAPACTION should be changed to ImportData.
 ```text
 curl --data-binary @soaprequest.xml -o soapresponse.xml -H "SOAPACTION: http://tempuri.org/SoapConnector/ImportData" -H "Content-type: text/xml;charset=utf-8" 
        https://customer.ultimo.net/Webservices/SoapConnector.svc
-
 ```
-
-### 
 

@@ -16,5 +16,3 @@ curl --data-binary @c:\test.xml -o c:\response.xml -H "Content-type: text/xml;ch
      "https://customer.ultimo.net/Webservices/Connector.ashx?username=<<username>>&password=<<password>>&action=import&importName=<<importconnectorname>>"
 ```
 
-### 
-

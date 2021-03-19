@@ -5,5 +5,3 @@ The 'expand' query option can be used to specify related entities to include in 
 * For each equipment include all related spareparts and the vendor entity:  `GET https://customer.ultimo.net/api/v1/object/Equipment?expand=SpareParts,Vendor` 
 * For each building include all related buildingparts and for each buildingpart include all related buildingfloors:  `GET https://customer.ultimo.net/api/v1/object/Equipment?expand=BuildingParts/BuildingFloors`
 
-
-

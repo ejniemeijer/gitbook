@@ -1,9 +1,9 @@
 # How to connect
 
-The url to send the request to:  
-  
- `https://customer.ultimo.net/WebServices/SoapConnector.svc`  
-__
+The url to send the request to:
+
+`https://customer.ultimo.net/WebServices/SoapConnector.svc`  
+\_\_
 
 `https://customer.ultimo.net/` is the domain name where the Ultimo software is available.
 
@@ -12,8 +12,8 @@ __
 _Example:_
 
 Ultimo Software is located at:  
- `https://customer.ultimo.net/`
+`https://customer.ultimo.net/`
 
-Then the path should be:   
+Then the path should be:  
 `https://customer.ultimo.net/Webservices/SoapConnector.svc`
 

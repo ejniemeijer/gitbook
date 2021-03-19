@@ -12,5 +12,3 @@ The next examples explain the different uses of resource paths:
 * When retrieving an entity with multiple key properties that includes a navigation property of the related entity the key properties can be omitted:  `GET https://customer.ultimo.net/api/v1/object/Building('0001')/BuildingParts(Building='0001',Id='001')/BuildingFloor` 
 * The previous example can be shortened to:  `GET https://customer.ultimo.net/api/v1/object/Building('0001')/BuildingParts('001')/BuildingFloor`
 
-
-
