@@ -1,6 +1,6 @@
 # IoT Connector
 
-#### **IoT \(UbiPackMeasurementPoints\) with workflows:**
+### **IoT \(UbiPackMeasurementPoints\) with workflows:**
 
 1. REST\_EquipmentMeasurementPointValue\_Import
 2. REST\_ProcessFunctionMeasurementPointValue\_Import
@@ -8,21 +8,4 @@
 4. REST\_CreateProcessFunctionMeasurementPoint
 
 {% file src="../../.gitbook/assets/ultimo-iot-connector-api-documentation-v3.pdf" %}
-
-## **TEST**
-
-```sql
-dsfdsfsdfsdfSF(fsdhdsffd
-<>
-""
-select * from dba.test
-```
-
-> Hallo ERik
-
-{% hint style="warning" %}
-sfdasfsdffs
-{% endhint %}
-
-
 
