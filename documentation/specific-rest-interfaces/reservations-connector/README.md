@@ -11,7 +11,5 @@ There are basically two flows in the connector. One flow sends data to Ultimo an
 3. REST\_CancelReservation
 4. REST\_GetReservationsForSpace
 
-{% file src="../../../.gitbook/assets/ultimo-rest-connector-reservations-api-documentation-v3.pdf" caption="Reservation \(RESTInterfaceReservations\) with workflows" %}
-
 
 
