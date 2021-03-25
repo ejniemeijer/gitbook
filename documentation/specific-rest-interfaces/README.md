@@ -6,7 +6,7 @@ Currently there are three REST interfaces available in Ultimo \(depending on lic
 
 {% page-ref page="jobs-connector.md" %}
 
-{% page-ref page="reservations-connector.md" %}
+{% page-ref page="reservations-connector/" %}
 
 
 
