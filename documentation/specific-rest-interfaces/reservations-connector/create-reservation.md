@@ -74,6 +74,11 @@ Header data:
 
 Body \(example\):
 
+```text
+{
+    "ExternalId"
+```
+
 ![](../../../.gitbook/assets/3.png)
 
 Normal response:
