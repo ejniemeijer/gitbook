@@ -27,63 +27,19 @@ Body \(example\):
 
 Normal response:
 
+{% hint style="success" %}
 Status: 200 OK
+{% endhint %}
 
 ![](../../../.gitbook/assets/13.png)
 
-Response when the API-key is invalid:
+#### Response when the API-key is invalid:
 
+{% hint style="danger" %}
 Status: 401 Unauthorized
+{% endhint %}
 
 ![](../../../.gitbook/assets/14.png)
-
-
-
-### Technical details 
-
-Basic URL \(POST\):
-
-`https://customer.ultimo.com/api/V1/Action/REST_UpdateReservation`
-
-Header data:
-
-| Parameter | Description |
-| :--- | :--- |
-| ApiKey | Request an API key at \(application manager or consultant |
-| ApplicationElementId | Fixed value “3736d834-fa5e-4edc-9abd-f38962ff8afd” |
-
-Body \(example\):
-
-![](../../../.gitbook/assets/7.png)
-
-Normal response:
-
-Status: 200 OK
-
-![](../../../.gitbook/assets/8.png)
-
-Responses when the action is not allowed:
-
-Status: 400 Bad Request
-
-![](../../../.gitbook/assets/9.png)
-
-Response when the API-key is invalid:
-
-  
-In this case it is not allowed to make a reservation for a room that already has a reservation at the specified time. Ultimo will not process this action.
-
-Status: 400 Bad Request
-
-![](../../../.gitbook/assets/10.png)
-
-In this case it is not allowed to modify a room reservation that lies in the past. Ultimo will not process this action.
-
-Response when the API-key is invalid:
-
-Status: 401 Unauthorized
-
-![](../../../.gitbook/assets/11.png)
 
 
 

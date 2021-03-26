@@ -61,30 +61,38 @@ Body \(example\):
 
 Normal response:
 
+{% hint style="success" %}
 Status: 200 OK
+{% endhint %}
 
 ![](../../../.gitbook/assets/8.png)
 
-Responses when the action is not allowed:
+#### Responses when the action is not allowed:
 
+{% hint style="danger" %}
 Status: 400 Bad Request
+{% endhint %}
 
 ![](../../../.gitbook/assets/9.png)
 
-Response when the API-key is invalid:
+#### Response when the API-key is invalid:
 
   
 In this case it is not allowed to make a reservation for a room that already has a reservation at the specified time. Ultimo will not process this action.
 
+{% hint style="danger" %}
 Status: 400 Bad Request
+{% endhint %}
 
 ![](../../../.gitbook/assets/10.png)
 
 In this case it is not allowed to modify a room reservation that lies in the past. Ultimo will not process this action.
 
-Response when the API-key is invalid:
+#### Response when the API-key is invalid:
 
+{% hint style="danger" %}
 Status: 401 Unauthorized
+{% endhint %}
 
 ![](../../../.gitbook/assets/11.png)
 

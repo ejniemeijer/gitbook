@@ -67,13 +67,17 @@ Body \(example\):
 
 Normal response:
 
+{% hint style="success" %}
 Status: 200 OK
+{% endhint %}
 
 ![](../../../.gitbook/assets/16.png)
 
-Response when the API-key is invalid:
+#### Response when the API-key is invalid:
 
+{% hint style="danger" %}
 Status: 401 Unauthorized
+{% endhint %}
 
 ![](../../../.gitbook/assets/17.png)
 

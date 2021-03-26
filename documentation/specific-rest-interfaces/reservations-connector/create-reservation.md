@@ -101,7 +101,7 @@ Status: 200 OK
 }
 ```
 
-Response when the API-key is invalid:
+#### Response when the API-key is invalid:
 
 In this case it is not allowed to make a reservation for a room that already has a reservation at the specified time. Ultimo will not process this action.
 
@@ -117,7 +117,7 @@ Status: 401 Unauthorized
 }
 ```
 
-Response when the action is not allowed:
+#### Response when the action is not allowed:
 
 {% hint style="danger" %}
 Status: 400 Bad Request
