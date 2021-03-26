@@ -59,7 +59,7 @@ Body \(example\):
 
 ![](../../../.gitbook/assets/7.png)
 
-Normal response:
+#### Normal response:
 
 {% hint style="success" %}
 Status: 200 OK
@@ -75,9 +75,6 @@ Status: 400 Bad Request
 
 ![](../../../.gitbook/assets/9.png)
 
-#### Response when the API-key is invalid:
-
-  
 In this case it is not allowed to make a reservation for a room that already has a reservation at the specified time. Ultimo will not process this action.
 
 {% hint style="danger" %}

@@ -57,15 +57,16 @@ https://customer.ultimo.com/api/V1/Action/REST\_GetReservationsForSpace
 
 Header data:
 
-| ApiKey | Request an API key at \(application manager or consultant\) |
+| Parameter | Description |
 | :--- | :--- |
+| ApiKey | Request an API key at \(application manager or consultant\) |
 | ApplicationElementId | Fixed value “860ea091-4d76-47d9-a733-c3bb18440dde” |
 
 Body \(example\):
 
 ![](../../../.gitbook/assets/15.png)
 
-Normal response:
+#### Normal response:
 
 {% hint style="success" %}
 Status: 200 OK

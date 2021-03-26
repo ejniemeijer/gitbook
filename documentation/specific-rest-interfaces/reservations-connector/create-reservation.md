@@ -87,7 +87,7 @@ Body \(example\):
 }    
 ```
 
-Normal response:
+#### Normal response:
 
 {% hint style="success" %}
 Status: 200 OK
@@ -97,22 +97,6 @@ Status: 200 OK
 {
     "Properties": {
         "UltimoId": "00000006712",
-    }
-}
-```
-
-#### Response when the API-key is invalid:
-
-In this case it is not allowed to make a reservation for a room that already has a reservation at the specified time. Ultimo will not process this action.
-
-{% hint style="danger" %}
-Status: 401 Unauthorized
-{% endhint %}
-
-```csharp
-{
-    "message": "Missing API key",
-    "code": "MissingApiKey"
     }
 }
 ```
@@ -128,6 +112,22 @@ Status: 400 Bad Request
     "message": "Room reservation cannot be requested or processed.\r\nCause: meeting room is not available.",
     "type": "3",
     "code": "1015"
+    }
+}
+```
+
+In this case it is not allowed to make a reservation for a room that already has a reservation at the specified time. Ultimo will not process this action.
+
+#### Response when the API-key is invalid:
+
+{% hint style="danger" %}
+Status: 401 Unauthorized
+{% endhint %}
+
+```csharp
+{
+    "message": "Missing API key",
+    "code": "MissingApiKey"
     }
 }
 ```

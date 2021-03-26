@@ -49,8 +49,8 @@
   * [Jobs Connector](documentation/specific-rest-interfaces/jobs-connector.md)
   * [Reservations Connector](documentation/specific-rest-interfaces/reservations-connector/README.md)
     * [Create reservation](documentation/specific-rest-interfaces/reservations-connector/create-reservation.md)
-    * [Cancel reservation](documentation/specific-rest-interfaces/reservations-connector/cancel-reservation.md)
     * [Update reservation](documentation/specific-rest-interfaces/reservations-connector/update-reservation.md)
+    * [Cancel reservation](documentation/specific-rest-interfaces/reservations-connector/cancel-reservation.md)
     * [Get reservations](documentation/specific-rest-interfaces/reservations-connector/get-reservations.md)
 
 ## Reference

@@ -25,7 +25,7 @@ Body \(example\):
 
 ![](../../../.gitbook/assets/12.png)
 
-Normal response:
+#### Normal response:
 
 {% hint style="success" %}
 Status: 200 OK
