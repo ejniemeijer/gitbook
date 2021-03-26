@@ -6,10 +6,15 @@ There are basically two flows in the connector. One flow sends data to Ultimo an
 
 #### **Reservation \(RESTInterfaceReservations\) with workflows:**
 
-1. REST\_CreateReservation
-2. REST\_UpdateReservation
-3. REST\_CancelReservation
-4. REST\_GetReservationsForSpace
+{% page-ref page="create-reservation.md" %}
+
+{% page-ref page="update-reservation.md" %}
+
+{% page-ref page="cancel-reservation.md" %}
+
+{% page-ref page="get-reservations.md" %}
+
+
 
 
 
