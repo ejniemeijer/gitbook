@@ -64,7 +64,13 @@ Header data:
 
 Body \(example\):
 
-![](../../../.gitbook/assets/15.png)
+```csharp
+{
+    "From": "2021-06-13 12:00:00",
+    "Till": "2021-06-14 13:00:00",
+    "SpaceId": "C-25"
+}
+```
 
 #### Normal response:
 
@@ -72,7 +78,27 @@ Body \(example\):
 Status: 200 OK
 {% endhint %}
 
-![](../../../.gitbook/assets/16.png)
+```csharp
+{
+    "Properties": {
+        "Output": {
+            "collection": [
+                {
+                    "UltimoId": "00000006712",
+                    "Description": "Team meeting Front office",
+                    "ApplicantId": "ULTIMO",
+                    "ApplicantName": "Fasse, J.",
+                    "StartTime": "2021-06-14T09:00:00.000000+01:00",
+                    "EndTime": "2021-06-14T10:30:00.000000+01:00",
+                    "StartTimeIncludingPreperationTime": "2021-06-14T08:50:00.000000+01:00",
+                    "EndTime": "2021-06-14T10:40:00.000000+01:00",
+                    "Status": "Processed",
+                }
+             ]   
+        }
+    }
+}
+```
 
 #### Response when the API-key is invalid:
 
@@ -80,5 +106,10 @@ Status: 200 OK
 Status: 401 Unauthorized
 {% endhint %}
 
-![](../../../.gitbook/assets/17.png)
+```csharp
+{
+    "message": "Missing API key",
+    "code": "MissingApiKey"
+}
+```
 

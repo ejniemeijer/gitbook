@@ -23,7 +23,11 @@ Header data:
 
 Body \(example\):
 
-![](../../../.gitbook/assets/12.png)
+```csharp
+{
+    "UltimoId": "00000006712"
+}  
+```
 
 #### Normal response:
 
@@ -31,7 +35,11 @@ Body \(example\):
 Status: 200 OK
 {% endhint %}
 
-![](../../../.gitbook/assets/13.png)
+```csharp
+{
+    "properties": {}
+} 
+```
 
 #### Response when the API-key is invalid:
 
@@ -39,7 +47,12 @@ Status: 200 OK
 Status: 401 Unauthorized
 {% endhint %}
 
-![](../../../.gitbook/assets/14.png)
+```csharp
+{
+    "message": "Missing API key",
+    "code": "MissingApiKey"
+}
+```
 
 
 
