@@ -7,25 +7,31 @@ The following parameters are used in the request. These are all required.
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Parameter</th>
-      <th style="text-align:left">Description</th>
+      <th style="text-align:left"><b>Parameter</b>
+      </th>
+      <th style="text-align:left"><b>Description</b>
+      </th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">ExternalId</td>
+      <td style="text-align:left"><b>ExternalId</b>
+      </td>
       <td style="text-align:left">This is the Id used for the reservation in the system of the third party.</td>
     </tr>
     <tr>
-      <td style="text-align:left">Description</td>
+      <td style="text-align:left"><b>Description</b>
+      </td>
       <td style="text-align:left">The description of the reservation for the room.</td>
     </tr>
     <tr>
-      <td style="text-align:left">SpaceId</td>
+      <td style="text-align:left"><b>SpaceId</b>
+      </td>
       <td style="text-align:left">This is the internal Ultimo Id of a room/space (entity).</td>
     </tr>
     <tr>
-      <td style="text-align:left">StartTime</td>
+      <td style="text-align:left"><b>StartTime</b>
+      </td>
       <td style="text-align:left">
         <p>The start time (datetime) of reservation.</p>
         <p>Allowed formats:</p>
@@ -36,7 +42,8 @@ The following parameters are used in the request. These are all required.
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">EndTime</td>
+      <td style="text-align:left"><b>EndTime</b>
+      </td>
       <td style="text-align:left">
         <p>The end time (datetime) of reservation.</p>
         <p>Allowed formats:</p>
@@ -47,7 +54,8 @@ The following parameters are used in the request. These are all required.
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">ApplicantId</td>
+      <td style="text-align:left"><b>ApplicantId</b>
+      </td>
       <td style="text-align:left">The Id from the applicant of the reservation (entity employee in Ultimo).</td>
     </tr>
   </tbody>
