@@ -112,7 +112,6 @@ Status: 400 Bad Request
     "message": "Room reservation cannot be requested or processed.\r\nCause: meeting room is not available.",
     "type": "3",
     "code": "1015"
-    }
 }
 ```
 
@@ -128,7 +127,6 @@ Status: 401 Unauthorized
 {
     "message": "Missing API key",
     "code": "MissingApiKey"
-    }
 }
 ```
 

@@ -57,7 +57,13 @@ Header data:
 
 Body \(example\):
 
-![](../../../.gitbook/assets/7.png)
+```csharp
+{
+    "UltimoId": "00000006712",
+    "StartTime": "2021-06-14 12:00:00",
+    "EndTime": "2021-06-14 13:00:00"
+}  
+```
 
 #### Normal response:
 
@@ -65,7 +71,11 @@ Body \(example\):
 Status: 200 OK
 {% endhint %}
 
-![](../../../.gitbook/assets/8.png)
+```csharp
+{
+    "properties": {}
+} 
+```
 
 #### Responses when the action is not allowed:
 
@@ -73,7 +83,13 @@ Status: 200 OK
 Status: 400 Bad Request
 {% endhint %}
 
-![](../../../.gitbook/assets/9.png)
+```csharp
+{
+    "message": "Room reservation cannot be requested or processed.\r\nCause: Meeting room 2 is not available.",
+    "type": "3",
+    "code": "1015"
+}
+```
 
 In this case it is not allowed to make a reservation for a room that already has a reservation at the specified time. Ultimo will not process this action.
 
@@ -81,7 +97,13 @@ In this case it is not allowed to make a reservation for a room that already has
 Status: 400 Bad Request
 {% endhint %}
 
-![](../../../.gitbook/assets/10.png)
+```csharp
+{
+    "message": "Room reservation cannot be modified.\r\nCause: Room reservation is in the past.",
+    "type": "3",
+    "code": "1166"
+}
+```
 
 In this case it is not allowed to modify a room reservation that lies in the past. Ultimo will not process this action.
 
@@ -91,9 +113,12 @@ In this case it is not allowed to modify a room reservation that lies in the pas
 Status: 401 Unauthorized
 {% endhint %}
 
-![](../../../.gitbook/assets/11.png)
-
-
+```csharp
+{
+    "message": "Missing API key",
+    "code": "MissingApiKey"
+}
+```
 
 ### 
 
