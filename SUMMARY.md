@@ -45,7 +45,10 @@
 
 * [Third party integration](documentation/third-party-integration.md)
 * [Specific Rest Interfaces](documentation/specific-rest-interfaces/README.md)
-  * [IoT Connector](documentation/specific-rest-interfaces/iot-connector.md)
+  * [IoT Connector](documentation/specific-rest-interfaces/iot-connector/README.md)
+    * [REST](documentation/specific-rest-interfaces/iot-connector/rest.md)
+    * [HTTP POST \(XML\)](documentation/specific-rest-interfaces/iot-connector/http-post-xml.md)
+    * [SOAP \(XML\)](documentation/specific-rest-interfaces/iot-connector/soap-xml.md)
   * [Jobs Connector](documentation/specific-rest-interfaces/jobs-connector.md)
   * [Reservations Connector](documentation/specific-rest-interfaces/reservations-connector/README.md)
     * [Create reservation](documentation/specific-rest-interfaces/reservations-connector/create-reservation.md)
