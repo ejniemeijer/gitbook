@@ -10,7 +10,7 @@ After importing a measurement, various validations and business rules will be ex
 
 Ultimo is not suitable for _raw sensor data_, so it is not allowed to directly connect sensors to Ultimo or send unfiltered sensor data to Ultimo. The Ultimo IoT connector is intended to connect with a server or platform that collects and filters / aggregates data from sensors.
 
-![](../../../.gitbook/assets/2%20%281%29.png)
+![](../../../.gitbook/assets/2%20%282%29.png)
 
 To avoid an overload of sensor data, there is a maximum limit of measurements. When processing measured values, Ultimo will check if there are no more than 3 days with more than 25 measured values in the past 10 days. 
 
@@ -20,7 +20,7 @@ It is also possible to create new measurement points with the REST interface.
 
 Objects or meters can have measurement points. These can be stored on an equipment or a process function. Each measurement should refer to an existing measurement point \(for an equipment or process function\).
 
-![](../../../.gitbook/assets/3%20%281%29.png)
+![](../../../.gitbook/assets/3%20%282%29.png)
 
 A measurement contains:
 

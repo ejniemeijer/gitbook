@@ -61,11 +61,11 @@ Body \(example\) with measurement point for process function:
 
 #### Body \(example\) with absolute value:
 
-![](../../../.gitbook/assets/4%20%281%29.png)
+![](../../../.gitbook/assets/4%20%282%29.png)
 
 #### Body \(example\) with delta:
 
-![](../../../.gitbook/assets/5%20%281%29.png)
+![](../../../.gitbook/assets/5%20%282%29.png)
 
 ### Measurements for a process function measurement point
 
