@@ -24,19 +24,15 @@ Ultimo Software is located at:
 Then the path should be:  
 `https://customer.ultimo.net/Webservices/SoapConnector.svc`
 
-{% page-ref page="how-to-connect.md" %}
+### WSDL
 
-{% page-ref page="wsdl.md" %}
+Available functionality within the SOAP web service can be found inside the WSDL description.
 
-{% page-ref page="authentication.md" %}
+`https://customer.ultimo.net/WebServices/SoapConnector.svc?wsdl`
 
-{% page-ref page="overview-of-a-post-request.md" %}
+### Authentication
 
-{% page-ref page="requesting-data.md" %}
-
-{% page-ref page="inserting-data.md" %}
-
-{% page-ref page="testing-soap.md" %}
+When sending a request to the SOAP web service, authentication should be added to the SOAP body.
 
 
 
