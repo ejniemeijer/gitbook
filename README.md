@@ -1,5 +1,7 @@
 # Welcome
 
+![](.gitbook/assets/ultimo_back.png)
+
 Ultimo offers seamless integration with other applications. Thanks to a modern integration platform, certified standard interfaces and ready-to-use connectors, you receive and send the right data at the right time, and with the right quality. Integration is easy to realise and is robust and maintainable. With smart integration, you reduce manual input, guaranteeing the integrity of data and ensuring that your decisions are based on current information.
 
 In our editions, we offer various integration options. Ultimo Essentials, as well as all other versions, offers default integrated e-mail communication. Starting from Ultimo Professional, you can use various default integrations, including customer-specific ones. Ultimo Professional uses Ultimo REST API which makes it possible to request data from Ultimo. In addition, it is possible to realise batch imports and exports by using default Ultimo Business Integration connectors.
