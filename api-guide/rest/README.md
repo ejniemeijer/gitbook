@@ -2,9 +2,9 @@
 
 As of Ultimo version 18.04, the possibility to connect to a REST API has been added to Ultimo.
 
-### Requesting data
-
 ![](../../.gitbook/assets/restapi.png)
+
+### Requesting data
 
 With the GET request method it is possible for API clients to retrieve information from Ultimo.
 
