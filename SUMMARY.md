@@ -15,8 +15,6 @@
   * [Special characters](api-guide/rest/special-characters.md)
   * [Testing REST](api-guide/rest/testing-rest.md)
 * [HTTP POST](api-guide/http-post/README.md)
-  * [How to connect](api-guide/http-post/http-post-how-to-connect.md)
-  * [Authentication](api-guide/http-post/authentication.md)
   * [Overview of a POST request](api-guide/http-post/http-post-overview-of-a-post-request.md)
   * [Requesting data](api-guide/http-post/requesting-data.md)
   * [Inserting data](api-guide/http-post/inserting-data.md)

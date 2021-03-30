@@ -4,19 +4,27 @@ It’s possible to communicate to the HTTP handler through an HTTP POST request.
 
 The receiving client should parse the HTTP POST response data and extract the XML that was constructed by Ultimo Business Integration containing all the object data.
 
-{% page-ref page="http-post-how-to-connect.md" %}
+### How to connect
 
-{% page-ref page="authentication.md" %}
+The url to send the request to:
 
-{% page-ref page="http-post-overview-of-a-post-request.md" %}
+`http://customer.ultimo.net/WebServices/Connector.ashx`
 
-{% page-ref page="requesting-data.md" %}
+* `http://customer.ultimo.net` 
 
-{% page-ref page="inserting-data.md" %}
+  represents the domain name where the Ultimo software is available.
 
-{% page-ref page="testing-http-post.md" %}
+* `/WebServices/Connector.ashx`  represents a relative path, if the Ultimo software is installed in a different directory.
 
+_Example:_
 
+Ultimo Software is located at:  
+`http://customer.ultimo.net/Ultimo/`
 
+Then the path should be:  
+`http://customer.ultimo.net/Ultimo/Webservices/Connector.ashx`
 
+### Authentication
+
+When sending a request using HTTP POST, authentication should be added as username & password parameters to the connection string. Therefor it is strongly recommended to use a HTTPS connection when using HTTP Post.
 
