@@ -10,7 +10,7 @@ As of Ultimo version 18.04, the possibility to connect to a REST API has been ad
 
 {% page-ref page="resource-paths.md" %}
 
-{% page-ref page="query-options/" %}
+{% page-ref page="query-options.md" %}
 
 {% page-ref page="special-characters.md" %}
 
