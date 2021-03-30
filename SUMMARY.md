@@ -13,7 +13,6 @@
   * [Resource paths](api-guide/rest/resource-paths.md)
   * [Query options](api-guide/rest/query-options.md)
   * [Special characters](api-guide/rest/special-characters.md)
-  * [Response format](api-guide/rest/response-format.md)
   * [Testing REST](api-guide/rest/testing-rest.md)
 * [HTTP POST](api-guide/http-post/README.md)
   * [How to connect](api-guide/http-post/http-post-how-to-connect.md)
