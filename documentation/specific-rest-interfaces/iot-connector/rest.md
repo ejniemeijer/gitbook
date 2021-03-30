@@ -1,6 +1,8 @@
 # REST
 
-### Create measurement points for an equipment
+### Equipment
+
+Create measurement points for an equipment
 
 #### Basic URL \(POST\):
 
@@ -23,7 +25,9 @@ Body \(example\) with measurement point for equipment:
 }
 ```
 
-### Create measurement points for a process function
+### Process function
+
+Create measurement points for a process function
 
 #### Basic URL \(POST\):
 
@@ -46,7 +50,9 @@ Body \(example\) with measurement point for process function:
 }
 ```
 
-### Measurements for an equipment measurement point
+### Equipment measurement point
+
+Measurements for an equipment measurement point
 
 #### Basic URL \(POST\):
 
@@ -67,7 +73,9 @@ Body \(example\) with measurement point for process function:
 
 ![](../../../.gitbook/assets/5%20%282%29.png)
 
-### Measurements for a process function measurement point
+### Process function measurement point
+
+Measurements for a process function measurement point
 
 #### Basic URL \(POST\):
 
