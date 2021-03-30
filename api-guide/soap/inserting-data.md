@@ -1,7 +1,3 @@
----
-description: 'TODO: Add the example requests from the third party documentation'
----
-
 # Inserting data
 
 It is possible to change data by sending a request to one of the activated import connectors.

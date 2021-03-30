@@ -1,7 +1,3 @@
----
-description: 'TODO: Add the example requests from the third party documentation'
----
-
 # Requesting data
 
 It is possible to retrieve data by sending a request to one of the activated export connectors. Without sending requestData, all data from the connector will be returned. It is possible to add filters to a request to retrieve specific information from the connector. Filters can be applied by adding them in the requestData node within a CDATA block.
