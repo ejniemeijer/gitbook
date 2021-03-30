@@ -10,9 +10,6 @@
 ## API guide
 
 * [REST](api-guide/rest/README.md)
-  * [Requesting data](api-guide/rest/requesting-data.md)
-  * [Authentication](api-guide/rest/rest_authentication.md)
-  * [Headers](api-guide/rest/headers.md)
   * [Resource paths](api-guide/rest/resource-paths.md)
   * [Query options](api-guide/rest/query-options.md)
   * [Special characters](api-guide/rest/special-characters.md)

@@ -2,23 +2,26 @@
 
 As of Ultimo version 18.04, the possibility to connect to a REST API has been added to Ultimo.
 
-{% page-ref page="rest\_authentication.md" %}
+### Requesting data
 
-{% page-ref page="requesting-data.md" %}
+With the GET request method it is possible for API clients to retrieve information from Ultimo.
 
-{% page-ref page="headers.md" %}
+The basic URL for requesting entities has the following format:
 
-{% page-ref page="resource-paths.md" %}
+![](../../.gitbook/assets/accolades_rest_api.png)
 
-{% page-ref page="query-options.md" %}
+The service root is the same for every request or query. It contains the environment name, which is a string to identify your Ultimo environment. The resource path refers to the specific information you request. The query options determine which parts of this information are presented and how.
 
-{% page-ref page="special-characters.md" %}
+### Authentication
 
-{% page-ref page="response-format.md" %}
+When sending a request to the REST API, an API key should be provided in the header of the request. The API key can be generated in Ultimo.
 
-{% page-ref page="testing-rest.md" %}
+### Headers
 
+The headers of a request contains general configurations. It contains the following options:
 
+* The API key must be specified in the following format:  `ApiKey: {API KEY}` 
+* You can specify in which language you receive the response. If not specified the default user language is returned. The language is returned in the header of the response. You can specify the language in the following format:  `Accept-language: NL`
 
 
 
