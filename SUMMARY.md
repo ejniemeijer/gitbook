@@ -25,22 +25,27 @@
   * [Inserting data](api-guide/soap/inserting-data.md)
   * [Testing SOAP](api-guide/soap/testing-soap.md)
 
-## Documentation
+## CONNECTORS
 
-* [Third party integration](documentation/third-party-integration.md)
-* [Specific Rest Interfaces](documentation/specific-rest-interfaces/README.md)
-  * [IoT Connector](documentation/specific-rest-interfaces/iot-connector/README.md)
-    * [REST](documentation/specific-rest-interfaces/iot-connector/rest.md)
-    * [HTTP POST \(XML\)](documentation/specific-rest-interfaces/iot-connector/http-post-xml.md)
-    * [SOAP \(XML\)](documentation/specific-rest-interfaces/iot-connector/soap-xml.md)
-  * [Jobs Connector](documentation/specific-rest-interfaces/jobs-connector.md)
-  * [Reservations Connector](documentation/specific-rest-interfaces/reservations-connector/README.md)
-    * [Create reservation](documentation/specific-rest-interfaces/reservations-connector/create-reservation.md)
-    * [Update reservation](documentation/specific-rest-interfaces/reservations-connector/update-reservation.md)
-    * [Cancel reservation](documentation/specific-rest-interfaces/reservations-connector/cancel-reservation.md)
-    * [Get reservations](documentation/specific-rest-interfaces/reservations-connector/get-reservations.md)
+* [IoT](connectors/iot/README.md)
+  * [REST](connectors/iot/rest.md)
+  * [HTTP POST \(XML\)](connectors/iot/http-post-xml.md)
+  * [SOAP \(XML\)](connectors/iot/soap-xml.md)
+* [Jobs](connectors/jobs.md)
+* [Reservations](connectors/reservations/README.md)
+  * [Create reservation](connectors/reservations/create-reservation.md)
+  * [Update reservation](connectors/reservations/update-reservation.md)
+  * [Cancel reservation](connectors/reservations/cancel-reservation.md)
+  * [Get reservations](connectors/reservations/get-reservations.md)
+
+## Documentation
 
 ## Reference
 
 * [⚙️ Playground](https://integrations-playground.ultimo.com/docs/index.html?version=v1&apiKey=E98A60772F574264BEF845115A32D388)
+
+## TODO
+
+* [Third party integration](todo/third-party-integration.md)
+* [OCI](todo/oci.md)
 
