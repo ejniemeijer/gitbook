@@ -35,9 +35,5 @@ The following types of communications are supported to access the API:
 
 {% page-ref page="../api-guide/rest/" %}
 
-{% page-ref page="../api-guide/http-post/" %}
-
-{% page-ref page="../api-guide/soap/" %}
-
 
 

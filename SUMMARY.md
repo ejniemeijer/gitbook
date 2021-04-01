@@ -14,23 +14,11 @@
   * [Query options](api-guide/rest/query-options.md)
   * [Special characters](api-guide/rest/special-characters.md)
   * [Testing REST](api-guide/rest/testing-rest.md)
-* [HTTP POST](api-guide/http-post/README.md)
-  * [Overview of a POST request](api-guide/http-post/http-post-overview-of-a-post-request.md)
-  * [Requesting data](api-guide/http-post/requesting-data.md)
-  * [Inserting data](api-guide/http-post/inserting-data.md)
-  * [Testing HTTP POST](api-guide/http-post/testing-http-post.md)
-* [SOAP](api-guide/soap/README.md)
-  * [Overview of a POST request](api-guide/soap/overview-of-a-post-request.md)
-  * [Requesting data](api-guide/soap/requesting-data.md)
-  * [Inserting data](api-guide/soap/inserting-data.md)
-  * [Testing SOAP](api-guide/soap/testing-soap.md)
 
 ## CONNECTORS
 
 * [IoT](connectors/iot/README.md)
   * [REST](connectors/iot/rest.md)
-  * [HTTP POST \(XML\)](connectors/iot/http-post-xml.md)
-  * [SOAP \(XML\)](connectors/iot/soap-xml.md)
 * [Jobs](connectors/jobs.md)
 * [Reservations](connectors/reservations/README.md)
   * [Create reservation](connectors/reservations/create-reservation.md)
