@@ -80,21 +80,21 @@ Status: 200 OK
 
 ```csharp
 {
-    "Properties": {
+    "properties": {
         "Output": {
             "collection": [
                 {
-                    "UltimoId": "00000006712",
+                    "UltimoId": "00000006710",
                     "Description": "Team meeting Front office",
                     "ApplicantId": "ULTIMO",
                     "ApplicantName": "Fasse, J.",
-                    "StartTime": "2021-06-14T09:00:00.000000+01:00",
-                    "EndTime": "2021-06-14T10:30:00.000000+01:00",
-                    "StartTimeIncludingPreperationTime": "2021-06-14T08:50:00.000000+01:00",
-                    "EndTime": "2021-06-14T10:40:00.000000+01:00",
-                    "Status": "Processed",
+                    "StartTime": "2021-04-20T08:00:00.000000+12:00",
+                    "EndTime": "2021-04-20T09:00:00.000000+12:00",
+                    "StartTimeIncludingPreparationTime": "2021-04-20T08:00:00.000000+12:00",
+                    "EndTimeIncludingCleanupTime": "2021-04-20T09:00:00.000000+12:00",
+                    "Status": "Processed"
                 }
-             ]   
+            ]
         }
     }
 }
