@@ -97,7 +97,19 @@ Header data:
 
 #### Body \(example\):
 
-![](../.gitbook/assets/3%20%281%29.png)
+```csharp
+{
+	"Description": "Malfunction in bread line N.PRO.01",
+	"ReportText": "The formatting machine is creating ugly shapes",
+	"ProcessFunctionld": "N.PRO.01",
+	"EquipmentId": "39772",
+	"ReportDate": "2020-05-27 10:00:00",
+	"Spaceld": "P-42",
+	"Siteld": "02",
+	"Context": "JobContext.TD",
+	"WorkOrderTypeId": "007"
+}
+```
 
 #### Normal response:
 
@@ -105,7 +117,13 @@ Header data:
 Status: 200 OK
 {% endhint %}
 
-![](../.gitbook/assets/4%20%281%29.png)
+```csharp
+{
+	"properties": {
+		"JobId": "0005446"
+	}
+}
+```
 
 #### Response when the API-key is invalid:
 
@@ -119,7 +137,13 @@ Status: 401 Unauthorized
 Status: 400 Bad Request
 {% endhint %}
 
-![](../.gitbook/assets/5%20%281%29.png)
+```csharp
+{
+	"message": "Job cannot be created.\r\nCause: Equipment '397722' cannot be found.",
+	"type": 3,
+	"code": "3399"
+}
+```
 
 #### Response when the API-key is invalid:
 
@@ -127,5 +151,10 @@ Status: 400 Bad Request
 Status: 401 Unauthorized
 {% endhint %}
 
-![](../.gitbook/assets/6%20%282%29.png)
+```csharp
+{
+	"message": "Missing API key",
+	"code": "MissingApikey"
+}
+```
 
