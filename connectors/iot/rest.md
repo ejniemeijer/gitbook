@@ -67,11 +67,27 @@ Measurements for an equipment measurement point
 
 #### Body \(example\) with absolute value:
 
-![](../../.gitbook/assets/4%20%282%29.png)
+```csharp
+{
+	"EquipmentId": "00001",
+	"MeasurementPointId": "TEMP",
+	"Date": "2018-08-20 15:57:59",
+	"Value": "22",
+	"Text": "Some remarks for measurement"
+}
+```
 
 #### Body \(example\) with delta:
 
-![](../../.gitbook/assets/5%20%282%29.png)
+```csharp
+{
+	"EquipmentId": "00001",
+	"MeasurementPointId": "RUNHOURS",
+	"Date": "2018-08-21 15:17:59",
+	"Delta": "5",
+	"Text": "Some remarks for measurement"
+}
+```
 
 ### Process function measurement point
 
@@ -90,11 +106,27 @@ Measurements for a process function measurement point
 
 #### Body \(example\) with absolute value:
 
-![](../../.gitbook/assets/6%20%281%29.png)
+```csharp
+{
+	"ProcessFunctionId": "0001",
+	"MeasurementPointId": "RUNHOURS",
+	"Date": "2018-08-21 15:17:59",
+	"Value": "25482",
+	"Text": "Some remarks for measurement"
+}
+```
 
 #### Body \(example\) with delta:
 
-![](../../.gitbook/assets/7%20%281%29.png)
+```csharp
+{
+	"ProcessFunctionId": "0001",
+	"MeasurementPointId": "RUNHOURS",
+	"Date": "2018-08-21 15:17:59",
+	"Delta": "5",
+	"Text": "Some remarks for measurement"
+}
+```
 
 #### Responses
 
@@ -104,7 +136,11 @@ When the measurement or measurement point is accepted:
 Status: 200 OK
 {% endhint %}
 
-![](../../.gitbook/assets/8%20%281%29.png)
+```csharp
+{
+	"properties": {} 
+}
+```
 
 #### When the measurement is rejected:
 
@@ -112,7 +148,13 @@ Status: 200 OK
 Status: 400 Bad Request
 {% endhint %}
 
-![](../../.gitbook/assets/9%20%281%29.png)
+```csharp
+{
+	"message": "Value 5 measured on 21-8-2018 15:17 cannot be processed.\r\nCause: measurement point '000011222 - DEFAULT' was not found.",
+	"type": 3, 
+	"code": "3095" 
+}
+```
 
 #### When the measurement point is rejected:
 
@@ -142,7 +184,12 @@ Status: 400 Bad Request
 Status: 401 Unauthorized
 {% endhint %}
 
-![](../../.gitbook/assets/10%20%281%29.png)
+```csharp
+{
+	"message": "The API key is invalid",
+	"code": "InvalidApiKey"
+}
+```
 
 #### Other:
 
@@ -150,7 +197,16 @@ Status: 401 Unauthorized
 Status: 500 Internal Server Error
 {% endhint %}
 
-![](../../.gitbook/assets/11%20%281%29.png)
+```csharp
+{
+	"message": "An error has occured", 
+	"exceptionType": "System.FormatException", 
+	"detailMessage": "Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xx)",  
+	"type": 1, 
+	"stackTrace": " at System.Guid.TryParseGuidMithDashes (....)”,
+	"code": "InternalServerError" 
+}
+```
 
 ### 
 
