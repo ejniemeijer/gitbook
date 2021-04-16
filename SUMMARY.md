@@ -5,7 +5,7 @@
 ## Getting started
 
 * [Introduction](getting-started/introduction.md)
-* [Quick Start](getting-started/quick-start.md)
+* [Software editions](getting-started/software-editions.md)
 
 ## API guide
 
@@ -37,15 +37,18 @@
   * [Update reservation](connectors/reservations/update-reservation.md)
   * [Cancel reservation](connectors/reservations/cancel-reservation.md)
   * [Get reservations](connectors/reservations/get-reservations.md)
+* [OCI](connectors/oci.md)
 
 ## Documentation
+
+---
+
+* [Third party integration](third-party-integration.md)
+* [Azure migration](migration-to-azure/README.md)
+  * [Export alternatives](migration-to-azure/export-alternatives.md)
+  * [Import alternatives](migration-to-azure/import-alternatives.md)
 
 ## Reference
 
 * [⚙️ Playground](https://integrations-playground.ultimo.com/docs/index.html?version=v1&apiKey=E98A60772F574264BEF845115A32D388)
-
-## TODO
-
-* [Third party integration](todo/third-party-integration.md)
-* [OCI](todo/oci.md)
 
