@@ -49,7 +49,3 @@
   * [Export alternatives](migration-to-azure/export-alternatives.md)
   * [Import alternatives](migration-to-azure/import-alternatives.md)
 
-## Reference
-
-* [⚙️ Playground](https://integrations-playground.ultimo.com/docs/index.html?version=v1&apiKey=E98A60772F574264BEF845115A32D388)
-
