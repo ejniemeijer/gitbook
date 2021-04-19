@@ -1,4 +1,4 @@
-# Welcome
+# 👋🏻 Welcome
 
 ![](.gitbook/assets/frontpage_image.jpg)
 
