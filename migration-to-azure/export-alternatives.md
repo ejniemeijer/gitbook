@@ -11,7 +11,7 @@ Actions:
 * Create a \(powershell\) script to get and save data from the export connector.
 * Add a scheduled task to run this script periodically, according to the current schedule on the export connector.
 
-Note: make sure the IT infrastructure should allows connection to the Ultimo webservices.
+Note: make sure the IT infrastructure allows connection to the Ultimo webservices.
 
 cUrl example:
 

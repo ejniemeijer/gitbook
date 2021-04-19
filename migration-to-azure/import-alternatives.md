@@ -9,7 +9,7 @@ Actions:
 * Create a \(powershell\) script to send data to the import connector.
 * Execute the script immediately each time a file is added to the network share or add a scheduled task to run this script periodically, according to the current schedule on the import connector.
 
-Note: make sure the IT infrastructure should allows connection to the Ultimo webservices.
+Note: make sure the IT infrastructure allows connection to the Ultimo webservices.
 
 cUrl example:
 
@@ -29,7 +29,7 @@ Actions:
 * Create a \(powershell\) script to send data to the REST API.
 * Execute the script immediately each time a file is added to the network share or add a scheduled task to run this script periodically
 
-Note: make sure the IT infrastructure should allows connection to the Ultimo webservices.
+Note: make sure the IT infrastructure allows connection to the Ultimo webservices.
 
 cUrl example:
 
