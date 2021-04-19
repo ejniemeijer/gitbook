@@ -1,6 +1,6 @@
 # Welcome
 
-![](.gitbook/assets/19-0458-utm-eam-brochure-2020-3.jpg)
+![](.gitbook/assets/frontpage_image.jpg)
 
 Ultimo offers seamless integration with other applications. Thanks to a modern integration platform, certified standard interfaces and ready-to-use connectors, you receive and send the right data at the right time, and with the right quality. Integration is easy to realise and is robust and maintainable. With smart integration, you reduce manual input, guaranteeing the integrity of data and ensuring that your decisions are based on current information.
 
