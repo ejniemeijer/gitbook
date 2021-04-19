@@ -21,7 +21,7 @@ Note: escape a character when using special characters in the URL.
 
 The body can contain multiple measurements:
 
-```markup
+```csharp
 <?xml version="1.0" encoding="utf-8"?>
 <Measurements>
 	<Measurement>
@@ -47,7 +47,7 @@ The response will contain the imported measurements in the internal Ultimo data 
 Status: 200 OK
 {% endhint %}
 
-```markup
+```cpp
 <?xml version="1.0" encoding="utf-8"?>
 <Data>
 	<Object Type="EquipmentMeasurementPointValue" Action="Insert">
@@ -69,9 +69,7 @@ When the measurement is not accepted by the Ultimo business rules or an error oc
 Status: 200 OK
 {% endhint %}
 
-![](../../.gitbook/assets/14%20%281%29.png)
-
-```markup
+```csharp
 <?xml version="1.0" encoding="utf-8"?>
 <Data>
 	<Object Type="EquipmentMeasurementPointValue" Action="Error">
