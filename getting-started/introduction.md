@@ -4,6 +4,8 @@ description: What is Ultimo Business Integration
 
 # Introduction
 
+![](../.gitbook/assets/20-0168-aw-utm-visual-partner-eco-systeem-light.png)
+
 Ultimo Business Integration provides an API to Ultimo for third party applications. The API offers the following functions:
 
 * Insert data
