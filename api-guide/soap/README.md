@@ -1,5 +1,7 @@
 # SOAP
 
+🚫 Professional ✅ Premium ✅ Enterprise
+
 This section explains how to setup a connection to the WCF / SOAP service.
 
 ### How to connect
