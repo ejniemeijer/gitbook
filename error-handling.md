@@ -14,3 +14,21 @@ Sending a request to Ultimo Business Integration will return an HTTP response st
 
 When processing of a request fails, the response body will contain detailed information on what went wrong. These error messages are returned in a fixed format and cannot be customised.
 
+Example:
+
+```text
+<?xml version="1.0" encoding="utf-8"?>
+<Data>
+    <Object Type="Equipment" Action="Error">
+        <Property Name="ErrorMessage" Value="Cannot import entity 'Equipment' 'Id': 'EQM01' 'Description': 'Parent object' . Import of child object failed" />
+        <Property Name="ShortErrorMessage" Value="Import of child object failed" />
+    </Object>
+    <Object Type="Equipment" Action="Error">
+        <Property Name="ErrorMessage" Value="Cannot import entity 'Equipment' 'Description': 'Child object' 'Department.Id': 'UNKNOWN' . Unable to find required relation of type Department for entity Equipment on property Department with value UNKNOWN" />
+        <Property Name="ShortErrorMessage" Value="Unable to find required relation of type Department for entity Equipment on property Department with value UNKNOWN" />
+    </Object>
+</Data>
+```
+
+
+
