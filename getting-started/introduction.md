@@ -13,8 +13,6 @@ Ultimo Business Integration provides an API to Ultimo for third party applicatio
 
 Ultimo is able to process the received data using the built in business logic. 
 
-![](../.gitbook/assets/image.webp)
-
 Ultimo Business Integration can be described as:
 
 * A default integration platform
