@@ -1,7 +1,3 @@
----
-description: Ultimo Premium | Enterprise developer page
----
-
 # Welcome
 
 ![](.gitbook/assets/ultimo_back.png)
