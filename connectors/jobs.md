@@ -1,6 +1,6 @@
 # Jobs
 
-🚫 Professional ✅ Premium ✅ Enterprise
+✅ Professional ✅ Premium ✅ Enterprise
 
 This REST connector allows third parties to create a job in Ultimo. This functionality is similar to reporting a job in Ultimo. Ultimo acts as a server in this connector. The flow is simple and depicted below:
 

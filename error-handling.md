@@ -1,6 +1,6 @@
 # Error handling
 
-🚫 Professional ✅ Premium ✅ Enterprise
+✅ Professional ✅ Premium ✅ Enterprise
 
 Sending a request to Ultimo Business Integration will return an HTTP response status code. A list of all status codes can be found [here](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes). There is one important thing to keep in mind: a 200 OK response does not mean that the request was successfully handled by Ultimo. It only means that the request was received successfully by the API. Whenever a request is successfully received, it will be processed separately afterwards. Details of possible errors will be returned in the response body.
 

@@ -1,6 +1,6 @@
 # IoT
 
-🚫 Professional ✅ Premium ✅ Enterprise
+✅ Professional ✅ Premium ✅ Enterprise
 
 The Ultimo IoT connector enables third parties to provide measurements \(i.e. based on sensor data\) to Ultimo. There are three different ways to connect to Ultimo:
 

@@ -1,6 +1,6 @@
 # REST
 
-🚫 Professional ✅ Premium ✅ Enterprise
+✅ Professional ✅ Premium ✅ Enterprise
 
 ![](../../.gitbook/assets/restapi.png)
 
