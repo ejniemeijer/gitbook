@@ -1,7 +1,3 @@
----
-description: What is Ultimo Business Integration
----
-
 # Introduction
 
 ![](../.gitbook/assets/20-0168-aw-utm-visual-partner-eco-systeem-light.png)
@@ -12,8 +8,6 @@ Ultimo Business Integration provides an API to Ultimo for third party applicatio
 * Update data
 * Delete data
 * Retrieve data
-
-Ultimo is able to process the received data using the built in business logic. 
 
 Ultimo Business Integration can be described as:
 
@@ -31,7 +25,7 @@ Ultimo Business Integration offers:
 * Possibilities for XSL transformation
 * Default logging and rollback mechanisms
 
-The following types of communications are supported to access the API:
+Ultimo is able to process the received data using the built in business logic. The following types of communications are supported to access the API:
 
 {% page-ref page="../api-guide/rest/" %}
 
