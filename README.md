@@ -6,3 +6,5 @@ Ultimo offers seamless integration with other applications. Thanks to a modern i
 
 We have extensive experience of realising and maintaining interfaces ranging from Enterprise Resource Planning \(ERP\) and Geographical Information System \(GIS\) to external data sources, IoT platforms and Augmented Reality. For more inspiration, have a look at our [partner page](https://www.ultimo.com/partners) or ask one of our experts to recommend the best solution for you.
 
+In our editions, we offer various [integration options](getting-started/software-editions.md).
+
