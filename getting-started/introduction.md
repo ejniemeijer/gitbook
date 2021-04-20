@@ -25,7 +25,7 @@ Ultimo Business Integration can be described as:
 Ultimo Business Integration offers:
 
 * Various default integrations
-* Support for standards like LDAP and OCI
+* Support for standards like REST and OCI
 * Additional interfaces created by our consultants
 * Integration with files or webservice requests
 * Possibilities for XSL transformation
