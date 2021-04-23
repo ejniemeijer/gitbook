@@ -8,16 +8,16 @@ If you need more complex interfaces, for example to trigger customer-specific ac
 
 |  | Essentials | Professional | Premium | Enterprise |
 | :--- | :--- | :--- | :--- | :--- |
-| REST | 🚫 | ✅ | ✅ | ✅ |
-| HTTP POST | 🚫 | 🚫 | ✅ | ✅ |
-| SOAP | 🚫 | 🚫 | ✅ | ✅ |
+| [REST](../api-guide/rest/) | 🚫 | ✅ | ✅ | ✅ |
+| [HTTP POST](../api-guide/http-post/) | 🚫 | 🚫 | ✅ | ✅ |
+| [SOAP](../api-guide/soap/) | 🚫 | 🚫 | ✅ | ✅ |
 
 ### Connectors
 
 |  | Essentials | Professional | Premium | Enterprise |
 | :--- | :--- | :--- | :--- | :--- |
-| IoT | 🚫 | ✅ | ✅ | ✅ |
-| Jobs | 🚫 | ✅ | ✅ | ✅ |
-| Reservations | 🚫 | ✅ | ✅ | ✅ |
-| OCI | 🚫 | 🚫 | ✅ | ✅ |
+| [IoT](../connectors/iot/) | 🚫 | ✅ | ✅ | ✅ |
+| [Jobs](../connectors/jobs.md) | 🚫 | ✅ | ✅ | ✅ |
+| [Reservations](../connectors/reservations/) | 🚫 | ✅ | ✅ | ✅ |
+| [OCI](../connectors/oci.md) | 🚫 | 🚫 | ✅ | ✅ |
 
