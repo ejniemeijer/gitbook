@@ -24,7 +24,6 @@
   * [Requesting data](api-guide/soap/requesting-data.md)
   * [Inserting data](api-guide/soap/inserting-data.md)
   * [Testing SOAP](api-guide/soap/testing-soap.md)
-* [Error handling](api-guide/error-handling.md)
 
 ## CONNECTORS
 
@@ -45,6 +44,7 @@
 ---
 
 * [Third party integration](third-party-integration.md)
+* [Error handling](error-handling.md)
 * [Azure migration](migration-to-azure/README.md)
   * [Export alternatives](migration-to-azure/export-alternatives.md)
   * [Import alternatives](migration-to-azure/import-alternatives.md)
