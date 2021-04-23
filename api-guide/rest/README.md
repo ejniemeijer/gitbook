@@ -4,7 +4,7 @@
 
 ![](../../.gitbook/assets/restapi.png)
 
-Ultimo.As of Ultimo version 18.04, the possibility to connect to a REST API has been added to 
+Ultimo.As of Ultimo version 18.04 \(2018R2\), the possibility to connect to a REST API has been added.
 
 ### Requesting data
 
