@@ -54,5 +54,5 @@
 ---
 
 * [Ask on our Customer Portal](https://portal.ultimo.com/)
-* [Contact Customer Support](https://www.ultimo.com/services/support)
+* [Contact Customer Support](mailto:support@ultimo.com)
 
