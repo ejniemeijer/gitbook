@@ -49,3 +49,10 @@
   * [Export alternatives](migration-to-azure/export-alternatives.md)
   * [Import alternatives](migration-to-azure/import-alternatives.md)
 
+## Have a question?
+
+---
+
+* [Ask on our Customer Portal](https://portal.ultimo.com/)
+* [Contact Customer Support](https://www.ultimo.com/services/support)
+
