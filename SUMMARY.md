@@ -48,6 +48,7 @@
 * [Azure migration](migration-to-azure/README.md)
   * [Export alternatives](migration-to-azure/export-alternatives.md)
   * [Import alternatives](migration-to-azure/import-alternatives.md)
+* [Azure Authentication](azure-authentication.md)
 
 ## Have a question?
 
