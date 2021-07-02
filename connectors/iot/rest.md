@@ -1,5 +1,16 @@
 # REST
 
+### Playground environment
+
+{% hint style="info" %}
+It is possible to try this connector in our playground environment using our Swagger documentation page
+{% endhint %}
+
+| Parameter | Description |
+| :--- | :--- |
+| URL | [https://devdocs.ultimo.net/docs/index.html?version=v1&apiKey=A655245BECB74A7285B52FB26A9C2ACC](https://devdocs.ultimo.net/docs/index.html?version=v1&apiKey=A655245BECB74A7285B52FB26A9C2ACC) |
+| ApiKey | 668365FCD6D74D3BB07ED18FDAFF7417 |
+
 ### Equipment
 
 Create measurement points for an equipment
